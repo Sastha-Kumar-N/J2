@@ -1,0 +1,28 @@
+{
+  "assemblies": [
+    {
+      "name": "sequence",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "sequence-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "sequence.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "sequence.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    }
+  ],
+  "configuration": {},
+  "connections": [],
+  "defaultSession": {
+    "name": "New Session"
+  },
+  "tracks": []
+}
